@@ -1,0 +1,524 @@
+.header{
+	font-size:60px;
+	color:white;
+	padding-top:20px;
+	text-align: center;
+	width: 100%;
+	font-family: "Special Gothic Expanded One", sans-serif;
+	text-shadow: 
+                0 5px 5px rgba(255, 255, 255, 0.3),
+                0 10px 10px rgba(255, 255, 255, 0.3),
+                0 15px 15px rgba(255, 255, 255, 0.3); 
+}
+body{
+	background-color: #1A1A1A;
+}
+a{
+	text-decoration: none;
+}
+@font-face {
+    font-family: 'PorscheFont'; /* Название шрифта */
+    src: url("/fonts/ofont.ru_Porsche.ttf") format('ttf'), /* Укажите путь к файлу шрифта */
+    font-weight: normal; /* Укажите вес шрифта */
+    font-style: normal; /* Укажите стиль шрифта */
+}
+
+.main{
+	padding-top:100px;
+	display: flex;
+	justify-content:center;
+
+}
+.image_1{
+	max-width: 100%;
+    height: auto;
+}
+.text_porsh{
+	font-size:60px;
+	text-align: center;
+	color:white;
+	width: 100%;
+	font-family: "Special Gothic Expanded One", sans-serif;
+}
+.button{
+	background-color: #007BFF; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Без рамки */
+    border-radius:10px; /* Скругление углов */
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    font-size: 18px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Плавные переходы */
+    margin: 10px; /* Отступ между кнопками */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень кнопки */
+        }
+.button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+}
+.button:active {
+    transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Уменьшение тени при нажатии */
+}
+.main_button{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.column{
+	display: flex;
+	width: 50%;
+	flex-direction:column;
+}
+.text_stats{
+	padding: 4%;
+	font-size:40px;
+	color:white;
+	font-family: "Special Gothic Expanded One", sans-serif;
+}
+.text_stats:hover{
+	transform: translateY(20px); /* Сдвигаем элементы вниз */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.text_stats2{
+	font-size:23px;
+	font-family: "Roboto Condensed", sans-serif;
+	color:gray;
+}
+.text_stats3{
+	width: 50%;
+	padding: 4%;
+	font-size:30px;
+	font-family: "Special Gothic Expanded One", sans-serif;
+	color:gray;
+}
+.text_stats4{
+	width: 100%;
+	margin:2%;
+	text-align: center;
+	font-size:50px;
+	color:white;
+	font-family: "Special Gothic Expanded One", sans-serif;
+}
+.text_stats3:hover{
+	transition: color 0.3s ease;
+	color:#0056b3;
+}
+.column_stats{
+	padding-top:100px; 
+	display:flex;
+	justify-content:center;
+}
+.text_porsh2{
+	margin: 2%;
+	font-size:80px;
+	text-align: center;
+	color:white;
+	width: 100%;
+}
+
+.image_2{
+	width: 100%;
+	text-align:center;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.column2{
+	display: flex;
+	width:80%;
+	margin: 3%;
+}
+.column3{
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+}
+.text_stats5{
+	width: 50%;
+	text-align:justify;
+	font-size:23px;
+	font-family: "Roboto Condensed", sans-serif;
+	color:gray;
+}
+.text_pr6{
+	width: 100%;
+	padding: 4%;
+	text-align: left;
+	position: relative;
+	top:-30%;
+	font-size:37px;
+	color:white;
+	font-family: "Roboto Condensed", sans-serif;
+	backdrop-filter: blur(3px);
+}
+.text_pr7{
+	font-size:16px;
+	padding: 4%;
+	font-family: "Roboto Condensed", sans-serif;
+	color:white
+}
+.image_3{
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 15px;
+	width: 95%;
+}
+.flex{
+	display: flex;
+	width: 50%;
+	flex-direction:column;
+	position: relative;
+	top:-35%;
+}
+.image_4{
+	position: relative;
+	margin:3%;
+    overflow: hidden;
+}
+.image_4 img{
+	display: block; /* Убираем пробелы под изображением */
+    width: 100%; /* Адаптивное изображение */
+    height: auto;
+    text-align: center;
+}
+.image_4::after{
+	content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    z-index: 1;
+}
+.text_pr8{
+	width: 100%;
+	margin:2%;
+	text-align: center;
+	font-size:50px;
+	color:white;
+	font-family: "Special Gothic Expanded One", sans-serif;
+}
+.text_pr9{
+	width: 100%;
+	text-align: center;
+	font-size:24px;
+	color:white;
+	font-family: "Special Gothic Expanded One", sans-serif;
+}
+.flex2{
+	display: flex;
+	flex-direction:column;
+}
+.flex3{
+	margin:4%;
+	margin-bottom: 1%;
+	margin-top:1%;
+	width:55%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	flex-direction: row;
+	border-radius: 20px;
+}
+.flex3:hover{
+	box-shadow:0 0 30px rgba(255, 255, 255, 1);
+	opacity: (1.1);
+}
+@media screen and (max-width: 1640px){
+	.flex3{
+		width: 70%;
+	}
+}
+.sleep{
+	display: none;
+}
+.work{
+    display: block;
+}
+.image_5{
+	max-width:100%;
+	height: auto;
+}
+.text_pr10{
+	width: 60%;
+	text-align: left;
+	font-size:33px;
+	color:black;
+	font-family: "Rubik", sans-serif;
+	letter-spacing: 1px;
+}
+.text_pr10:hover{
+	transform: translateY(20px); /* Сдвигаем элементы вниз */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+	color:#0056b3;
+}
+.text_pr11{
+	width: 90%;
+	padding-top:4%;
+	text-align: left;
+	font-size:20px;
+	color:black;
+	font-family: "Roboto Condensed", sans-serif;
+	line-height: 1.5;
+}
+.flex4{
+	flex-direction:row;
+	align-items: flex-end;
+	width:100%;
+}
+@media screen and (max-width: 1459px){
+	.text_pr11{
+		font-size: 16px;
+		padding-top: 4%;
+	}
+}
+@media screen and (max-width: 1459px){
+ 	.text_pr10{
+ 		font-size: 26px;
+ 		width: 90%;
+ 	}
+}
+.text_pr12{
+	width: 80%;
+	text-align: left;
+	font-size:26px;
+	color:black;
+	font-family: "Rubik", sans-serif;
+	letter-spacing: 1px;
+}
+.text_pr13{
+	width: 90%;
+	padding-top:4%;
+	text-align: left;
+	font-size:22px;
+	color:black;
+	font-family: "Roboto Condensed", sans-serif;
+	line-height: 1.3;
+}
+.text_pr12:hover{
+	transform: translateY(20px); /* Сдвигаем элементы вниз */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    color:#0056b3;
+}
+
+@media screen and (max-width: 1640px){
+	.text_pr13{
+		font-size: 16px;
+		padding-top: 4%;
+	}
+}
+@media screen and (max-width: 1640px){
+ 	.text_pr12{
+ 		font-size: 22px;
+ 		width: 100%;
+ 	}
+}
+.text_pr14{
+	width: 50%;
+	text-align: left;
+	font-size:26px;
+	padding-top:4%;
+	color:black;
+	font-family: "Roboto Condensed", sans-serif;
+	line-height: 1.5;
+}
+@media screen and (max-width:1640px){
+	.text_pr14{
+		font-size:16px;
+		width: 40%;
+
+	}
+}
+.text_pr15{
+	width: 80%;
+	text-align: left;
+	font-size:33px;
+	color:black;
+	font-family: "Rubik", sans-serif;
+	letter-spacing: 1px;
+}
+.text_pr15:hover{
+	transform: translateY(20px); /* Сдвигаем элементы вниз */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    color:#0056b3;
+}
+.flex5{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.cs{
+	display:flex;
+	justify-content:  flex-end;
+	width: 100%;
+}
+.text_pr16{
+	width: 80%;
+	text-align: left;
+	font-size:23px;
+	padding-top:4%;
+	color:black;
+	font-family: "Roboto Condensed", sans-serif;
+	line-height: 1.5;
+}
+@media screen and (max-width: 1640px){
+	.text_pr16{
+		font-size:16px;
+		width: 100%;
+
+	}
+}
+.image_6{
+	margin-top: 4%;
+	text-align: center;
+	display: inline-block;
+	height: auto;
+	overflow: hidden;
+	border-radius: 20px;
+}
+.flex_1{
+	display: flex;
+	justify-content: space-between;
+}
+.flex7{
+	margin-top:4%;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.text_pr17{
+	font-size:46px;
+	font-family: "Special Gothic Expanded One", sans-serif;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+
+}
+.text_pr17:hover{
+	transform: translateY(20px); /* Сдвигаем элементы вниз */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+}
+.text_pr18{
+	font-family: "Special Gothic Expanded One", sans-serif;
+	color: white;
+	font-size: 29px;
+	margin-top: 2.5%;
+}
+@media screen and (max-width: 1600px){
+	.text_pr18{
+		font-size: 16px;
+		padding-left: 2%;
+
+	}
+}
+.fade-in2{
+	animation: fadeIn 1s forwards
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Начальная прозрачность */
+        transform: translateY(20px); /* Начальная позиция ниже */
+    }
+    to {
+        opacity: 1; /* Конечная прозрачность */
+        transform: translateY(0); /* Конечная позиция */
+    }
+}
+.text_pr19{
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 36px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top:3%;
+}
+.flex8{
+	display: flex;
+	width: 50%;
+	height:auto;
+    flex-direction: column;
+    margin: 4%;
+    margin-top:2%;
+    height: 100%;
+    border: 4px solid transparent; /* Изначально без обводки */
+    border-radius: 8px;
+    transition: border-color 0.3s ease; /* Плавный переход */
+}
+.flex8:hover{
+	border:4px solid #d8d8db;
+	transform: scale(1.1);
+	padding: 0.2%;
+
+}
+.text_20{
+	font-family: "Special Gothic Expanded One", sans-serif;
+	font-size: 23px;
+	padding-bottom: 2%;
+}
+.text_21{
+	font-family: "Special Gothic Expanded One", sans-serif;
+	font-size: 16px;
+	padding-top: 2%;
+}
+.back{
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0 -10px 20px rgba(255, 255, 255, 0.8); /* Свечение сверху */
+    transition: box-shadow 0.3s ease; /* Плавный переход */
+    height:auto;
+}
+.animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.1s;
+    outline: none;
+}
+.animated-button:active {
+    transform: scale(0.95);
+}
+.ds{
+	display: flex;
+}
+.text_22{
+	font-family: "Special Gothic Expanded One", sans-serif;
+	font-size: 36px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.text_23{
+	font-family: "Rubik", sans-serif;
+	font-size:28px;
+	color:white;
+	letter-spacing: 1px;
+}
+.text_23:hover{
+	color:red;
+}
+.flex10{
+	display: flex;
+	flex-direction: column;
+	margin: 4%;
+}
+.flex11{
+	display: flex;
+	justify-content: space-between;
+}
+.padding{
+	margin: 4%;
+}
+.text_24{
+	color:white;
+	font-family: "Special Gothic Expanded One", sans-serif;
+	width: 100%;
+	text-align:center;
+	font-size: 50px;
+}
